@@ -1,0 +1,72 @@
+
+
+.animated-image {
+  animation: moveUpDown 1s infinite alternate ease-in-out;
+}
+.biography-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  height: 100%;
+  overflow: hidden;
+}
+
+.biography-container .image-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.biography-container .text-container {
+  padding: 1rem;
+  text-align: left;
+}
+.department-image {
+  transition: filter 0.6s ease-in-out;
+}
+
+.card:hover .department-image {
+  filter: blur(14px);
+}
+
+.text-overlay {
+  transition: opacity 0.6s ease-in-out;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 1186px) {
+  .hero .banner span {
+    right: -400px;
+  }
+  .hero .banner h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .hero .banner span {
+    right: -480px;
+    top: -315px;
+  }
+}
+
+@media (max-width: 925px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding-bottom: 40px;
+  }
+}

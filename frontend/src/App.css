@@ -1,0 +1,21 @@
+/* App.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top */
+}
