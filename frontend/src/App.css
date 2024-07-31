@@ -3,6 +3,7 @@
 html, body, #root {
   height: 100%;
   margin: 0;
+  margin-top: 2%;
 }
 
 #root {
@@ -17,5 +18,5 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it stays on top */
+  z-index: 1000; 
 }

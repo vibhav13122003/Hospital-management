@@ -39,7 +39,7 @@ const MessageForm = () => {
     };
   return (
     <div className='flex justify-center items-center min-h-screen bg-gray-100'>
-      <div className='bg-gray-700 p-8 m-4 md:mx-20 rounded-lg shadow-lg w-full md:w-3/4 lg:w-3/4'>
+      <div className='bg-gray-700 p-8 m-4 md:mx-20 rounded-lg shadow-lg w-full md:w-3/4 lg:w-1/2'>
         <h2 className='text-center text-4xl mb-10 font-bold text-white'>
           Send us a message
         </h2>

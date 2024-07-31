@@ -94,7 +94,7 @@ const AppointmentForm = () => {
         <div className='w-full p-8 bg-white rounded-lg shadow-md ring-2 ring-gray-800/50 lg:max-w-2xl'>
           <form onSubmit={handleAppointment} className='grid grid-cols-1 gap-6'>
             <h1 className='text-3xl font-semibold text-center text-gray-900 mb-6 col-span-full'>
-              Register
+              Register Appointment
             </h1>
             <div className='grid grid-cols-2 gap-4'>
               <div>

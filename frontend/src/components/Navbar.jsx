@@ -26,9 +26,9 @@ const Navbar = () => {
     navigate("/login");
   };
   return (
-    <nav className='navbar bg-gray-800 text-white '>
+    <nav className='navbar bg-gray-800 text-white h-4 '>
       <div className=' mx-auto flex items-center justify-between  px-6'>
-        <div>Logo</div>
+        
         <div
           className={`md:flex ${
             show ? "block" : "hidden"

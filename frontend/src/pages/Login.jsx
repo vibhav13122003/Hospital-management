@@ -97,7 +97,7 @@ const Login = () => {
             <a
               href='#'
               className='text-indigo-600 hover:underline'
-              onClick={() => navigate("/signup")}
+              onClick={() => navigate("/register")}
             >
               Sign Up
             </a>
