@@ -48,7 +48,7 @@ const Login = () => {
         <h1 className='text-3xl font-semibold text-center text-gray-900 mb-6'>
           Log In
         </h1>
-        <p>Only admins are allowed</p>
+        <p className="font-bold text-center">Only admins are allowed</p>
         <form onSubmit={handleLogIn} className='space-y-6'>
           <div>
             <label className='block mb-2 text-sm font-medium text-gray-700'>
@@ -92,16 +92,7 @@ const Login = () => {
           >
             Log In
           </button>
-          <p className='text-sm text-center text-gray-500'>
-            Don`t have an account?{" "}
-            <a
-              href='#'
-              className='text-indigo-600 hover:underline'
-              onClick={() => navigate("/signup")}
-            >
-              Sign Up
-            </a>
-          </p>
+          
         </form>
         <ToastContainer position='top-center' />
       </div>

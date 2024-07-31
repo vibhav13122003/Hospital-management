@@ -2,7 +2,7 @@ import app from "./app.js";
 import dotenv from "dotenv";
 import cloudinary from "cloudinary";
 
-// Load environment variables
+
 dotenv.config({ path: "./config/.env" });
 
 const PORT = process.env.PORT || 8000;
