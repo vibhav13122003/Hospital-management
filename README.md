@@ -38,4 +38,23 @@ Ensure the following software is installed:
 
 2. **Navigate to the Project Directory**:  
 Change to the project directory:
+3.  **Install Frontend Dependencies**:
+
+         cd frontend
+         npm install
+    
+5. **Install Server Dependencies**:
+
+         cd backend
+         npm install
+6. 7. **Start the Application**:  
+- To start the backend server, navigate to the server directory and run:
+  ```
+  npm run dev
+  ```
+
+- In a new terminal, navigate to the client directory and run:
+  ```
+  npm start
+  ```
 
