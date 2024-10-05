@@ -47,7 +47,8 @@ Change to the project directory:
 
          cd backend
          npm install
-6. 7. **Start the Application**:  
+   
+6. **Start the Application**:  
 - To start the backend server, navigate to the server directory and run:
   ```
   npm run dev
